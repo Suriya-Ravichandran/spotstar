@@ -12,7 +12,7 @@
     <!-- header -->
     <?php load_template('index-header'); ?>
     <!-- login -->
-    <?php load_template('login'); ?>
+    <?php load_template('signup'); ?>
     <!-- footer -->
     <?php load_template('footer'); ?>
 </div>
