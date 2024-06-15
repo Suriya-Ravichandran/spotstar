@@ -19,6 +19,10 @@
                 <input type="password" required>
                 <label>Password</label>
             </div>
+            <div class="form-control">
+                <input type="password" required>
+                <label>Confirm Password</label>
+            </div>
             <button type="submit">Sign In</button>
         </form>
         <p>Already have an Account? <a href="/">Sign in now</a></p>
