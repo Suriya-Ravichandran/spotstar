@@ -10,9 +10,9 @@
   <!-- cover body start -->
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <!-- header -->
-    <?php load_template('about-header'); ?>
+    <?php load_template('otp-header'); ?>
     <!-- login -->
-    <?php load_template('about'); ?>
+    <?php load_template('otp-form'); ?>
     <!-- footer -->
     <?php load_template('footer'); ?>
 </div>
