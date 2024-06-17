@@ -13,7 +13,7 @@
             </div>
             <button type="submit">Sign In</button>
             <p id="signup">New to Spotstar? <a href="signup.php">Sign up now</a></p>
-            <p id="forgot">Help<a href="pages/signup.php"> Forgot Password</a></p>
+            <p id="forgot">Help<a href="forgot-password.php"> Forgot Password</a></p>
         </form>
     </div>
     </div>
