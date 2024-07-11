@@ -43,9 +43,9 @@
     margin-top: 20px;
   }
   
-  .form-content{
+  .form-content {
     max-width: 300px; /* Adjust form width for responsiveness */
-    height: 250px;
+    height: 350px;
     padding: 20px;
     background-color: white;
     border-radius: 8px;
@@ -55,6 +55,7 @@
     text-align: center;
     margin-bottom: 10px;
   }
+  
   .form p{
     text-align: center;
     color: red;
@@ -93,7 +94,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .bottom .link{
     background-color: white;
@@ -105,7 +106,7 @@
     border-radius: 8px;
   }
   .bottom p{
-    margin-left: 15px;
+    margin-left: 35px;
   }
   .bottom a{
     text-decoration: none;
@@ -113,7 +114,7 @@
   .footer{
     display: flex;
     justify-content: center;
-    margin-top: 140px;
+    margin-top: 30px;
   }
   .footer a{
     text-decoration: none;

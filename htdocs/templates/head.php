@@ -1,7 +1,7 @@
 <head>
     <title>Spotstar</title>
     <!-- Custom styles for this template -->
-    <?if(file_exists($_SERVER['DOCUMENT_ROOT'].'/css/'.basename($_SERVER['PHP_SELF'],".php").".css")){ ?>
-    <link href="/css/<?=basename($_SERVER['PHP_SELF'],".php")?>.css" rel="stylesheet">
+    <?if(file_exists($_SERVER['DOCUMENT_ROOT'].'/spotstar/htdocs/css/'.basename($_SERVER['PHP_SELF'],".php").".css")){ ?>
+    <link href="/spotstar/htdocs/css/<?=basename($_SERVER['PHP_SELF'],".php")?>.css" rel="stylesheet">
     <?}?>
   </head>

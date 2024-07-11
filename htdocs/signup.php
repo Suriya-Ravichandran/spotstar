@@ -7,9 +7,8 @@
 <body>
 <?php load_template('index-header'); ?>
 
-<?php load_template('login-form'); ?>
+<?php load_template('signup-form'); ?>
 <?php load_template('footer'); ?>
-
-<script src="js/index.js"></script>
+<script src="js/signup.js"></script>
 </body>
 </html>
