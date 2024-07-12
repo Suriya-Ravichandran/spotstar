@@ -57,7 +57,19 @@ function SignupValidation(){
     if((PhoneFlag==true)&&(EmailFlag==true)&&(PasswordFlag==true)&&(confirmFlag==true)){
         window.location.href="otp.php"
     }
+    else if(PasswordFlag!=true){
+        document.getElementById("error").innerHTML="Invaild Password"
+    }
+    else if(EmailFlag!=true){
+        document.getElementById("error").innerHTML="Invaild Email"
+    }
+    else if(confirmFlag!=true){
+        document.getElementById("error").innerHTML="Confirm Password not match"
+    }
+    else if(PhoneFlag!=true){
+        document.getElementById("error").innerHTML="Invaild Phone no"
+    }
     else{
-        document.getElementById("error").innerHTML="Invalid Details...!"
+        document.getElementById("error").innerHTML="invalid credentials"
     }
 }

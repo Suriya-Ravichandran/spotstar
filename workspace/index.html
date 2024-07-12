@@ -3,62 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login/Signup Toggle</title>
+    <title>OTP Verification and Notification</title>
     <style>
-        .hidden {
-            display: none;
-        }
-        .form-container {
+        .notification-container {
+            position: fixed;
+            top: 10px;
+            right: 10px;
             width: 300px;
-            margin: 0 auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+            z-index: 1000;
         }
-        .form-container form {
-            display: flex;
-            flex-direction: column;
-        }
-        .form-container form input {
+        .notification {
+            background: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
             margin-bottom: 10px;
             padding: 10px;
-            font-size: 1em;
+            display: flex;
+            align-items: center;
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+        .notification.hidden {
+            opacity: 0;
+            transform: translateX(100%);
+        }
+        .notification-icon {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .notification-header {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .notification-title {
+            font-weight: bold;
+        }
+        .close-btn {
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <div class="form-container">
-        <form id="loginForm">
-            <h2>Login</h2>
-            <input type="text" placeholder="Username" required>
-            <input type="password" placeholder="Password" required>
-            <button type="submit">Login</button>
-            <p>Don't have an account? <a href="#" onclick="toggleForms('signup')">Sign up</a></p>
-        </form>
 
-        <form id="signupForm" class="hidden">
-            <h2>Sign Up</h2>
-            <input type="text" placeholder="Username" required>
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Password" required>
-            <button type="submit">Sign Up</button>
-            <p>Already have an account? <a href="#" onclick="toggleForms('login')">Login</a></p>
-        </form>
-    </div>
+<div class="notification-container"></div>
 
-    <script>
-        function toggleForms(formType) {
-            const loginForm = document.getElementById('loginForm');
-            const signupForm = document.getElementById('signupForm');
-            
-            if (formType === 'signup') {
-                loginForm.classList.add('hidden');
-                signupForm.classList.remove('hidden');
-            } else {
-                signupForm.classList.add('hidden');
-                loginForm.classList.remove('hidden');
-            }
+<div>
+    <input type="text" id="Enteredotp" placeholder="Enter OTP">
+    <button onclick="OTPVerification()">Verify OTP</button>
+    <button onclick="ResendOTP()">Resend OTP</button>
+    <div id="error"></div>
+</div>
+
+<script>
+    var GeneratedOTP;
+
+    function generateOTP() {
+        GeneratedOTP = Math.floor(100000 + Math.random() * 900000); // Ensure a 6-digit OTP
+        createNotification("Your OTP Code", "Your OTP is: " + GeneratedOTP, "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/075007f6-42d1-410f-9cfd-105699dc8c31/devzjrq-861495c9-1341-4c60-87c4-8c0c78cacc75.png");
+    }
+
+    function OTPVerification() {
+        var EnteredOTP = document.getElementById("Enteredotp").value;
+        if (GeneratedOTP == EnteredOTP) {
+            window.location.href = "index.php";
+        } else {
+            document.getElementById("error").innerHTML = "Incorrect OTP";
         }
-    </script>
+    }
+
+    function ResendOTP() {
+        generateOTP();
+        document.getElementById("error").innerHTML = "";
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const notificationData = [
+            { 
+                title: "Enter OTP to verify", 
+                body: "This is OTP vaild for 5 min",
+                imgUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/075007f6-42d1-410f-9cfd-105699dc8c31/devzjrq-861495c9-1341-4c60-87c4-8c0c78cacc75.png"
+            },
+            // { 
+            //     title: "Notification Title b", 
+            //     body: "This is the second macOS-style notification for your web application.",
+            //     imgUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/075007f6-42d1-410f-9cfd-105699dc8c31/devzjrq-861495c9-1341-4c60-87c4-8c0c78cacc75.png"
+            // },
+            // { 
+            //     title: "Notification Title c", 
+            //     body: "This is the third macOS-style notification for your web application.",
+            //     imgUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/075007f6-42d1-410f-9cfd-105699dc8c31/devzjrq-861495c9-1341-4c60-87c4-8c0c78cacc75.png"
+            // }
+        ];
+
+        notificationData.forEach((data, index) => {
+            setTimeout(() => {
+                createNotification(data.title, data.body, data.imgUrl);
+            }, 1000 + 5000 * index);
+        });
+
+        generateOTP(); // Generate and display OTP on page load
+    });
+
+    function createNotification(title, body, imgUrl) {
+        const container = document.querySelector('.notification-container');
+
+        const notification = document.createElement('div');
+        notification.className = 'notification hidden';
+        notification.innerHTML = `
+            <div class="innernoti">
+                <img src="${imgUrl}" alt="Icon" class="notification-icon">
+                <div class="text-content">
+                    <div class="notification-header">
+                        <span class="notification-title">${title}</span>
+                        <button class="close-btn">&times;</button>
+                    </div>
+                    <div class="notification-body">${body}</div>
+                </div>
+            </div>
+        `;
+
+        container.prepend(notification);
+
+        setTimeout(() => {
+            notification.classList.remove('hidden');
+        }, 100);
+
+        setTimeout(() => {
+            notification.classList.add('hidden');
+            setTimeout(() => {
+                if (notification.parentNode) {
+                    notification.parentNode.removeChild(notification);
+                }
+            }, 500);
+        }, 30000);
+
+        notification.querySelector('.close-btn').addEventListener('click', () => {
+            notification.classList.add('hidden');
+            setTimeout(() => {
+                if (notification.parentNode) {
+                    notification.parentNode.removeChild(notification);
+                }
+            }, 500);
+        });
+    }
+</script>
+
 </body>
 </html>
