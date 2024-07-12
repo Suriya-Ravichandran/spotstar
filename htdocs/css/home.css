@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  body {
+    background-image: url("../media/images/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  .header #getstarted{
+    text-decoration: underline 2px;
+  }
+  
+  .header img {
+    width: auto;
+    height: 50px;
+  }
+  .menu{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+  .song{
+    height: 250px;
+    width: 250px;
+    background-image: url(../media/images/songs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 400px;
+    margin-top: 70px;
+  }
+  .movies{
+    height: 250px;
+    width: 250px;
+    background-image: url(../media/images/movies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 400px;
+    margin-top: 70px;
+  }
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .song {
+      margin-top: 20px;
+      margin-left: 50px; /* Adjust form width for smaller screens */
+    }
+    .movies{
+      margin-top: 20px;
+      margin-right:50px;
+      margin-left: 50px; /* Adjust form width for smaller screens */
+    }
+    .footer{
+      margin-top: 20px;
+    }
+  }
+
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+  }
+  .footer a{
+    text-decoration: none;
+  }

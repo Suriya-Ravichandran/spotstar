@@ -12,7 +12,7 @@ function LoginValidation(){
         }
     }
     if(flag==true){
-        window.location.href="dashboard.php"
+        window.location.href="home.php"
     }else{
         document.getElementById("error").innerHTML="Invalid Credential"
     }

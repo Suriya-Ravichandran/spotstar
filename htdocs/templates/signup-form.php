@@ -1,6 +1,6 @@
 <div class="form">
 <div class="form-content">
-    <h1>signup</h1>
+    <h1>Signup</h1>
     <p id="error"> </p>
     <input type="text" placeholder="Enter your Email ID" id="mail">
     <input type="text" placeholder="Enter your Phone no" id="phone">
