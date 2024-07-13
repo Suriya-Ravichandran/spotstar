@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: burlywood;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.header img{
+    margin-top: 10px;
+    height: 40px;
+    width: 180px;
+}
+.header button{
+    margin-top: 10px;
+    height: 30px;
+    width: 70px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.header #movies{
+    height: 30px;
+    width: 120px;
+    margin-left: 5px;
+}
+.header .home{
+    display: none;
+    color: white;
+    margin-left: 8px;
+    margin-top: 15px;
+    font-size: large;
+}
+.header .switch{
+    display: none;
+    color: white;
+    margin-left: 8px;
+    margin-top: 15px;
+    font-size: large;
+}
+ /* Responsive adjustments */
+ @media (max-width: 394px) {
+    .header #movies {
+       display: none;
+    }
+    .header #back {
+        display: none;
+     }
+     
+    .header .switch{
+        display: block;
+        margin-left: 20px;
+    }
+    .header .home{
+        display: block;
+        margin-left: 50px;
+    }
+  }
+
+  /* song-main */
+  .song-main{
+    margin-top: 70px;
+  }
+  .song-main h1{
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+  .gap{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 5px;
+  }
+  .actors{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .actors .photos{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .actors #vijay{
+    background-image: url(../media/images/Actors/Vijay1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .actors #vijay:hover{
+    background-image: url(../media/images/Actors/vijay2.jpg);
+  }
+  .actors #STR{
+    background-image: url(../media/images/Actors/STR1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .actors #STR:hover{
+    background-image: url(../media/images/Actors/STR2.jpg);
+  }
+  .actors #dhanush{
+    background-image: url(../media/images/Actors/dhanush\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .actors #dhanush:hover{
+    background-image: url(../media/images/Actors/dhanush\ \(2\).jpg);
+  }
+  .actors #suriya{
+    background-image: url(../media/images/Actors/suriya1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .actors #suriya:hover{
+    background-image: url(../media/images/Actors/suriya2.jpg);
+  }
+  .actors #kamal{
+    background-image: url(../media/images/Actors/kamal1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .actors #kamal:hover{
+    background-image: url(../media/images/Actors/kamal2.jpg);
+  }
+  .actors #superstar{
+    background-image: url(../media/images/Actors/Rajinikanth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .actors #superstar:hover{
+    background-image: url(../media/images/Actors/Rajinikanth2.jpg);
+  }
+  .MusicDirectors{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .MusicDirectors .photos{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .MusicDirectors #ARRahman{
+    background-image: url(../media/images/MusicDirectors/ARR1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .MusicDirectors #ARRahman:hover{
+    background-image: url(../media/images/MusicDirectors/ARR2.jpg);
+
+  }
+  .MusicDirectors #Yuyan{
+    background-image: url(../media/images/MusicDirectors/u1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .MusicDirectors #Yuyan:hover{
+    background-image: url(../media/images/MusicDirectors/u1\ \(2\).jpg);
+
+  }
+  .MusicDirectors #Anirudh{
+    background-image: url(../media/images/MusicDirectors/ani1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .MusicDirectors #Anirudh:hover{
+    background-image: url(../media/images/MusicDirectors/ani1\ \(2\).jpg);
+
+  }
+  .MusicDirectors #DImman{
+    background-image: url(../media/images/MusicDirectors/DImman\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .MusicDirectors #DImman:hover{
+    background-image: url(../media/images/MusicDirectors/DImman\ \(2\).jpg);
+
+  }
+  .MusicDirectors #GVPrakash{
+    background-image: url(../media/images/MusicDirectors/gv\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .MusicDirectors #GVPrakash:hover{
+    background-image: url(../media/images/MusicDirectors/gv\ \(2\).jpg);
+
+  }
+  .MusicDirectors #HiphopTamizha{
+    background-image: url(../media/images/MusicDirectors/hiphop\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .MusicDirectors #HiphopTamizha:hover{
+    background-image: url(../media/images/MusicDirectors/hiphop\ \(2\).jpg);
+
+  }
+  
+
+  .lyricist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .lyricist .photos{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .lyricist #AnthonyDaasan{
+    background-image: url(../media/images/MusicDirectors/anthony.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .lyricist #AnthonyDaasan:hover{
+    background-image: url(../media/images/MusicDirectors/Anthony2.jpg);
+
+  }
+  .lyricist #GangaiAmaran{
+    background-image: url(../media/images/MusicDirectors/gangai-amaren.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .lyricist #GangaiAmaran:hover{
+    background-image: url(../media/images/MusicDirectors/gangai-amaren.jpg);
+
+  }
+  .lyricist #HarrisJayaraj{
+    background-image: url(../media/images/MusicDirectors/HarrisJayaraj1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .lyricist #HarrisJayaraj:hover{
+    background-image: url(../media/images/MusicDirectors/HarrisJayaraj2.jpg);
+
+  }
+  .lyricist #SanthoshNarayanan{
+    background-image: url(../media/images/MusicDirectors/SanthoshNarayanan2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .lyricist #SanthoshNarayanan:hover{
+    background-image: url(../media/images/MusicDirectors/SanthoshNarayanan1.jpg);
+
+  }
+  .lyricist #Ilayaraaja{
+    background-image: url(../media/images/MusicDirectors/Ilayaraaja1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .lyricist #Ilayaraaja:hover{
+    background-image: url(../media/images/MusicDirectors/Ilayaraaja2.jpg);
+
+  }
+  .lyricist #MSViswanathan{
+    background-image: url(../media/images/MusicDirectors/MSViswanathan2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .lyricist #MSViswanathan:hover{
+    background-image: url(../media/images/MusicDirectors/MSViswanathan1.jpg);
+
+  }
+  .playbacksinger{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .playbacksinger .photos{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .playbacksinger #SPBalasubrahmanyam{
+    background-image: url(../media/images/singers/SPBalasubrahmanyam1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .playbacksinger #SPBalasubrahmanyam:hover{
+    background-image: url(../media/images/singers/SPBalasubrahmanyam2.jpg);
+
+  }
+  .playbacksinger #Dhee{
+    background-image: url(../media/images/singers/dhee1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .playbacksinger #Dhee:hover{
+    background-image: url(../media/images/singers/dhee2.jpg);
+
+  }
+  .playbacksinger #Janaki{
+    background-image: url(../media/images/singers/janaki.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .playbacksinger #Janaki:hover{
+    background-image: url(../media/images/singers/janaki2.jpg);
+
+  }
+  .playbacksinger #sidsriram{
+    background-image: url(../media/images/singers/sidsriram1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .playbacksinger #sidsriram:hover{
+    background-image: url(../media/images/singers/sidsriram2.jpg);
+
+  }
+  .playbacksinger #Vijayantony{
+    background-image: url(../media/images/singers/vijayantony1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .playbacksinger #Vijayantony:hover{
+    background-image: url(../media/images/singers/vijayantony2.jpg);
+
+  }
+  .playbacksinger #karthik{
+    background-image: url(../media/images/singers/Karthik.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .playbacksinger #karthik:hover{
+    background-image: url(../media/images/singers/Karthik2.jpg);
+
+  }
+  /* footer css */
+  .footer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer p{
+    margin-top: 10px;
+  }
+
+
+
+
