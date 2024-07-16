@@ -40,49 +40,40 @@ const app = {
   config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
   songs: [
     {
-      name: "LEO - Badass Lyric _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichander(MP3_160K)",
+      name: "LEO - Badass Lyric _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichander",
       singer: "Anirudh Ravichander",
       path:"media/Audio/vijaysongs/LEO - Badass Lyric _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichander(MP3_160K).mp3",
       image: "media/images/Actors/vijay2.jpg"
     },
     {
-      name: "Tu Phir Se Aana",
-      singer: "Raftaar x Salim Merchant x Karma",
-      path:
-        "https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3",
-      image:
-        "https://1.bp.blogspot.com/-kX21dGUuTdM/X85ij1SBeEI/AAAAAAAAKK4/feboCtDKkls19cZw3glZWRdJ6J8alCm-gCNcBGAsYHQ/s16000/Tu%2BAana%2BPhir%2BSe%2BRap%2BSong%2BLyrics%2BBy%2BRaftaar.jpg"
+      name: "Bigil - Singappenney Video _ Thalapathy Vijay_ Nayanthara _ _A. R. Rahman",
+      singer: "A. R. Rahman",
+      path:"media/Audio/vijaysongs/Bigil - Singappenney Video _ Thalapathy Vijay_ Nayanthara _ _A. R. Rahman(MP3_160K).mp3",
+      image:"media/images/Actors/vijay2.jpg"
     },
     {
-      name: "Naachne Ka Shaunq",
-      singer: "Raftaar x Brobha V",
-      path:
-        "https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3",
-      image: "https://i.ytimg.com/vi/QvswgfLDuPg/maxresdefault.jpg"
+      name: "Bigil - Unakaga Video _ Thalapathy Vijay_ Nayanthara _ _A. R. Rahman",
+      singer: "A. R. Rahman",
+      path:"media/Audio/vijaysongs/Bigil - Unakaga Video _ Thalapathy Vijay_ Nayanthara _ _A. R. Rahman(MP3_160K).mp3",
+      image: "media/images/Actors/vijay2.jpg"
     },
     {
-      name: "Mantoiyat",
-      singer: "Raftaar x Nawazuddin Siddiqui",
-      path:
-        "https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3",
-      image:
-        "https://a10.gaanacdn.com/images/song/39/24225939/crop_480x480_1536749130.jpg"
+      name: "Bigil - Verithanam Video _ Thalapathy Vijay _ _A. R. Rahman _ Atlee",
+      singer: "A. R. Rahman",
+      path:"media/Audio/vijaysongs/Bigil - Verithanam Video _ Thalapathy Vijay _ _A. R. Rahman _ Atlee(MP3_160K).mp3",
+      image:"media/images/Actors/vijay2.jpg"
     },
     {
-      name: "Aage Chal",
+      name: "Bigil-BigilBigilBigilumaVideo_Vijay_Nayanthara__ARRahman_Atlee",
       singer: "Raftaar",
-      path:
-        "https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3",
-      image:
-        "https://a10.gaanacdn.com/images/albums/72/3019572/crop_480x480_3019572.jpg"
+      path:"media/Audio/vijaysongs/Bigil-BigilBigilBigilumaVideo_Vijay_Nayanthara__ARRahman_Atlee(MP3_160K).mp3",
+      image:"media/images/Actors/vijay2.jpg"
     },
     {
-      name: "Damn",
-      singer: "Raftaar x kr$na",
-      path:
-        "https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3",
-      image:
-        "https://th.bing.com/th/id/R.b31b8f518e5ae15eaff9b123f2dd32d6?rik=778WnQ%2bAs5P0OA&riu=http%3a%2f%2fc1.staticflickr.com%2f4%2f3391%2f3233046074_34a63d9696_m.jpg&ehk=vdUHoooXhAwG2vehEL6FiO1xDBZeBBkbFubqjZq%2b0sk%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
+      name: "LEO - Naa Ready Lyric Video _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichander",
+      singer: "Anirudh Ravichander",
+      path:"media/Audio/vijaysongs/LEO - Naa Ready Lyric Video _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichander(MP3_160K).mp3",
+      image:"media/images/Actors/vijay2.jpg"
     },
     {
       name: "Feeling You",
