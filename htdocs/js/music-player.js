@@ -64,8 +64,8 @@ const app = {
       image:"media/images/Actors/vijay2.jpg"
     },
     {
-      name: "Bigil-BigilBigilBigilumaVideo_Vijay_Nayanthara__ARRahman_Atlee",
-      singer: "Raftaar",
+      name: "Bigil-BigilBigilBigiluma",
+      singer: "A R Rahman",
       path:"media/Audio/vijaysongs/Bigil-BigilBigilBigilumaVideo_Vijay_Nayanthara__ARRahman_Atlee(MP3_160K).mp3",
       image:"media/images/Actors/vijay2.jpg"
     },
@@ -76,66 +76,52 @@ const app = {
       image:"media/images/Actors/vijay2.jpg"
     },
     {
-      name: "Feeling You",
-      singer: "Raftaar x Harjas",
-      path:
-        "https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3",
-      image:
-        "https://a10.gaanacdn.com/gn_img/albums/YoEWlabzXB/oEWlj5gYKz/size_xxl_1586752323.webp"
+      name: "Master - Kutti Story Video _ Thalapathy Vijay _ Anirudh Ravichander _ Lokesh Kanagaraj",
+      singer: "Anirudh Ravichander",
+      path:"media/Audio/vijaysongs/Master - Kutti Story Video _ Thalapathy Vijay _ Anirudh Ravichander _ Lokesh Kanagaraj(MP3_160K).mp3",
+      image:"media/images/Actors/vijay2.jpg"
     },
     {
-      name: "Những gì anh nói",
-      singer: "Bozitt",
-      path:
-        "https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3",
-      image: "https://i.scdn.co/image/ab67616d00001e022fb9120f78fcdc3d7475950b"
+      name: "Master - Vaathi Coming Video _ Thalapathy Vijay _ Anirudh Ravichander _ Lokesh Kanagaraj(MP3_160K).mp3",
+      singer: "Anirudh Ravichander",
+      path:"media/Audio/vijaysongs/Master - Vaathi Coming Video _ Thalapathy Vijay _ Anirudh Ravichander _ Lokesh Kanagaraj(MP3_160K).mp3",
+      image: "media/images/Actors/vijay2.jpg"
     },
     {
-      name: "Tu Phir Se Aana",
-      singer: "Raftaar x Salim Merchant x Karma",
-      path:
-        "https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3",
-      image:
-        "https://1.bp.blogspot.com/-kX21dGUuTdM/X85ij1SBeEI/AAAAAAAAKK4/feboCtDKkls19cZw3glZWRdJ6J8alCm-gCNcBGAsYHQ/s16000/Tu%2BAana%2BPhir%2BSe%2BRap%2BSong%2BLyrics%2BBy%2BRaftaar.jpg"
+      name: "Mersal - Aalaporan Thamizhan Tamil Video _ Vijay _ A.R. Rahman",
+      singer: "A.R. Rahman",
+      path:"media/Audio/vijaysongs/Mersal - Aalaporan Thamizhan Tamil Video _ Vijay _ A.R. Rahman(MP3_160K).mp3",
+      image:"media/images/Actors/vijay2.jpg"
     },
     {
-      name: "Naachne Ka Shaunq",
-      singer: "Raftaar x Brobha V",
-      path:
-        "https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3",
-      image: "https://i.ytimg.com/vi/QvswgfLDuPg/maxresdefault.jpg"
+      name: "Mersal - Maacho Tamil Video _ Vijay_ Kajal Aggarwal _ A.R. Rahman",
+      singer: "A.R. Rahman",
+      path:"media/Audio/vijaysongs/Mersal - Maacho Tamil Video _ Vijay_ Kajal Aggarwal _ A.R. Rahman(MP3_160K).mp3",
+      image: "media/images/Actors/vijay2.jpg"
     },
     {
-      name: "Mantoiyat",
-      singer: "Raftaar x Nawazuddin Siddiqui",
-      path:
-        "https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3",
-      image:
-        "https://a10.gaanacdn.com/images/song/39/24225939/crop_480x480_1536749130.jpg"
+      name: "Priyamaanavale - Enakkoru Snehidhi Video _ Vijay_ Simran _ S.A. Rajkumar",
+      singer: "S.A. Rajkumar",
+      path:"media/Audio/vijaysongs/Priyamaanavale - Enakkoru Snehidhi Video _ Vijay_ Simran _ S.A. Rajkumar(MP3_160K).mp3",
+      image:"media/images/Actors/vijay2.jpg"
     },
     {
-      name: "Aage Chal",
-      singer: "Raftaar",
-      path:
-        "https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3",
-      image:
-        "https://a10.gaanacdn.com/images/albums/72/3019572/crop_480x480_3019572.jpg"
+      name: "Priyamaanavale - Ennavo Ennavo Official Video _ Vijay_ Simran _ S.A. Rajkumar",
+      singer: "S.A. Rajkumar",
+      path:"media/Audio/vijaysongs/Priyamaanavale - Ennavo Ennavo Official Video _ Vijay_ Simran _ S.A. Rajkumar(MP3_160K).mp3",
+      image:"media/images/Actors/vijay2.jpg"
     },
     {
-      name: "Damn",
-      singer: "Raftaar x kr$na",
-      path:
-        "https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3",
-      image:
-        "https://th.bing.com/th/id/R.b31b8f518e5ae15eaff9b123f2dd32d6?rik=778WnQ%2bAs5P0OA&riu=http%3a%2f%2fc1.staticflickr.com%2f4%2f3391%2f3233046074_34a63d9696_m.jpg&ehk=vdUHoooXhAwG2vehEL6FiO1xDBZeBBkbFubqjZq%2b0sk%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
+      name: "Thalaivaa - Yaar Indha Saalai Oram Video _ Vijay_ Amala Paul",
+      singer: "G.v.Prakash Kumar",
+      path:"media/Audio/vijaysongs/Thalaivaa - Yaar Indha Saalai Oram Video _ Vijay_ Amala Paul(MP3_160K).mp3",
+      image:"media/images/Actors/vijay2.jpg"
     },
     {
-      name: "Feeling You",
-      singer: "Raftaar x Harjas",
-      path:
-        "https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3",
-      image:
-        "https://a10.gaanacdn.com/gn_img/albums/YoEWlabzXB/oEWlj5gYKz/size_xxl_1586752323.webp"
+      name: "Thalaivaa - Vaanganna Vanakkanganna Video _ Vijay _ Santhanam(",
+      singer: "G.v.Prakash Kumar",
+      path:"media/Audio/vijaysongs/Thalaivaa - Vaanganna Vanakkanganna Video _ Vijay _ Santhanam(MP3_160K).mp3",
+      image:"media/images/Actors/vijay2.jpg"
     }
   ],
 
