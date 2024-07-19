@@ -5,7 +5,7 @@
       <!-- Header -->
       <header>
         <h4>Now playing:</h4>
-        <h2>Vijay song Playlist</h2>
+        <h2>STR song Playlist</h2>
       </header>
 
       <!-- CD -->
@@ -45,4 +45,4 @@
     </div>
   </div>
   </div>
-  <script src="js/vijay-music-player.js"></script>
+  <script src="js/str-music-player.js"></script>
