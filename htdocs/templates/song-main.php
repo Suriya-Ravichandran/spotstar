@@ -3,7 +3,7 @@
     <div class="gap">
     <div class="actors">
         <a href="vijaysongs.php"><div class="photos" id="vijay"></div></a>
-        <a href=""><div class="photos" id="STR"></div></a>
+        <a href="strsongs.php"><div class="photos" id="STR"></div></a>
         <a href=""><div class="photos" id="dhanush"></div></a>
         <a href=""><div class="photos" id="suriya"></div></a>
         <a href=""><div class="photos" id="kamal"></div></a>
