@@ -43,85 +43,85 @@ const app = {
       name: "LEO - Badass Lyric _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichander",
       singer: "Anirudh Ravichander",
       path:"media/Audio/vijaysongs/LEO - Badass Lyric _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichander(MP3_160K).mp3",
-      image: "media/images/Actors/vijay2.jpg"
+      image: "media/images/Actors/STR1.jpg"
     },
     {
       name: "Bigil - Singappenney Video _ Thalapathy Vijay_ Nayanthara _ _A. R. Rahman",
       singer: "A. R. Rahman",
       path:"media/Audio/vijaysongs/Bigil - Singappenney Video _ Thalapathy Vijay_ Nayanthara _ _A. R. Rahman(MP3_160K).mp3",
-      image:"media/images/Actors/vijay2.jpg"
+      image:"media/images/Actors/STR1.jpg"
     },
     {
       name: "Bigil - Unakaga Video _ Thalapathy Vijay_ Nayanthara _ _A. R. Rahman",
       singer: "A. R. Rahman",
       path:"media/Audio/vijaysongs/Bigil - Unakaga Video _ Thalapathy Vijay_ Nayanthara _ _A. R. Rahman(MP3_160K).mp3",
-      image: "media/images/Actors/vijay2.jpg"
+      image: "media/images/Actors/STR1.jpg"
     },
     {
       name: "Bigil - Verithanam Video _ Thalapathy Vijay _ _A. R. Rahman _ Atlee",
       singer: "A. R. Rahman",
       path:"media/Audio/vijaysongs/Bigil - Verithanam Video _ Thalapathy Vijay _ _A. R. Rahman _ Atlee(MP3_160K).mp3",
-      image:"media/images/Actors/vijay2.jpg"
+      image:"media/images/Actors/STR1.jpg"
     },
     {
       name: "Bigil-BigilBigilBigiluma",
       singer: "A R Rahman",
       path:"media/Audio/vijaysongs/Bigil-BigilBigilBigilumaVideo_Vijay_Nayanthara__ARRahman_Atlee(MP3_160K).mp3",
-      image:"media/images/Actors/vijay2.jpg"
+      image:"media/images/Actors/STR1.jpg"
     },
     {
       name: "LEO - Naa Ready Lyric Video _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichander",
       singer: "Anirudh Ravichander",
       path:"media/Audio/vijaysongs/LEO - Naa Ready Lyric Video _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichander(MP3_160K).mp3",
-      image:"media/images/Actors/vijay2.jpg"
+      image:"media/images/Actors/STR1.jpg"
     },
     {
       name: "Master - Kutti Story Video _ Thalapathy Vijay _ Anirudh Ravichander _ Lokesh Kanagaraj",
       singer: "Anirudh Ravichander",
       path:"media/Audio/vijaysongs/Master - Kutti Story Video _ Thalapathy Vijay _ Anirudh Ravichander _ Lokesh Kanagaraj(MP3_160K).mp3",
-      image:"media/images/Actors/vijay2.jpg"
+      image:"media/images/Actors/STR1.jpg"
     },
     {
       name: "Master - Vaathi Coming Video _ Thalapathy Vijay _ Anirudh Ravichander _ Lokesh Kanagaraj(MP3_160K).mp3",
       singer: "Anirudh Ravichander",
       path:"media/Audio/vijaysongs/Master - Vaathi Coming Video _ Thalapathy Vijay _ Anirudh Ravichander _ Lokesh Kanagaraj(MP3_160K).mp3",
-      image: "media/images/Actors/vijay2.jpg"
+      image: "media/images/Actors/STR1.jpg"
     },
     {
       name: "Mersal - Aalaporan Thamizhan Tamil Video _ Vijay _ A.R. Rahman",
       singer: "A.R. Rahman",
       path:"media/Audio/vijaysongs/Mersal - Aalaporan Thamizhan Tamil Video _ Vijay _ A.R. Rahman(MP3_160K).mp3",
-      image:"media/images/Actors/vijay2.jpg"
+      image:"media/images/Actors/STR1.jpg"
     },
     {
       name: "Mersal - Maacho Tamil Video _ Vijay_ Kajal Aggarwal _ A.R. Rahman",
       singer: "A.R. Rahman",
       path:"media/Audio/vijaysongs/Mersal - Maacho Tamil Video _ Vijay_ Kajal Aggarwal _ A.R. Rahman(MP3_160K).mp3",
-      image: "media/images/Actors/vijay2.jpg"
+      image: "media/images/Actors/STR1.jpg"
     },
     {
       name: "Priyamaanavale - Enakkoru Snehidhi Video _ Vijay_ Simran _ S.A. Rajkumar",
       singer: "S.A. Rajkumar",
       path:"media/Audio/vijaysongs/Priyamaanavale - Enakkoru Snehidhi Video _ Vijay_ Simran _ S.A. Rajkumar(MP3_160K).mp3",
-      image:"media/images/Actors/vijay2.jpg"
+      image:"media/images/Actors/STR1.jpg"
     },
     {
       name: "Priyamaanavale - Ennavo Ennavo Official Video _ Vijay_ Simran _ S.A. Rajkumar",
       singer: "S.A. Rajkumar",
       path:"media/Audio/vijaysongs/Priyamaanavale - Ennavo Ennavo Official Video _ Vijay_ Simran _ S.A. Rajkumar(MP3_160K).mp3",
-      image:"media/images/Actors/vijay2.jpg"
+      image:"media/images/Actors/STR1.jpg"
     },
     {
       name: "Thalaivaa - Yaar Indha Saalai Oram Video _ Vijay_ Amala Paul",
       singer: "G.v.Prakash Kumar",
       path:"media/Audio/vijaysongs/Thalaivaa - Yaar Indha Saalai Oram Video _ Vijay_ Amala Paul(MP3_160K).mp3",
-      image:"media/images/Actors/vijay2.jpg"
+      image:"media/images/Actors/STR1.jpg"
     },
     {
       name: "Thalaivaa - Vaanganna Vanakkanganna Video _ Vijay _ Santhanam(",
       singer: "G.v.Prakash Kumar",
       path:"media/Audio/vijaysongs/Thalaivaa - Vaanganna Vanakkanganna Video _ Vijay _ Santhanam(MP3_160K).mp3",
-      image:"media/images/Actors/vijay2.jpg"
+      image:"media/images/Actors/STR1.jpg"
     }
   ],
 
